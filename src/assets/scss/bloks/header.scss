@@ -1,0 +1,147 @@
+.header {
+    
+    background-color: #ffff;
+    // .header__logo
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 60px;
+    }
+
+    &__logo {
+        display: flex;
+        align-items: center;
+    }
+
+    // .header__menu
+
+    &__menu {
+    }
+
+    // .header__info
+
+    &__info {
+    }
+}
+
+.logo {
+
+    // .logo__img
+
+    &__img {
+        width: 55px;
+        height: 55px;
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    // .logo__text
+
+    &__text {
+        font-weight: 600;
+        line-height: 130%;
+        color: #171717;
+    }
+}
+.menu {
+
+    // .menu__list
+
+    &__list {
+        display: flex;
+        position: relative;
+        gap: 54px;
+    }
+
+    // .menu__item
+
+    &__item {
+    }
+
+    // .menu__link
+
+    &__link {
+        font-weight: 400;
+        line-height: 150%;
+    }
+}
+nav li:hover > .submenu {
+    transform: rotateX(0deg);
+    visibility: visible;
+    opacity: 1;
+}
+.submenu :last-child {
+    padding-bottom: 30px;
+    border-radius: 0 0 16px 16px ;
+}
+.submenu :first-child {
+    padding-top: 30px;
+    border-radius:16px 16px 0 0;
+}
+
+.submenu {
+    padding-top: 30px;
+    //padding: 37px 23px;
+    
+    position: absolute;
+    z-index: 5;
+    
+    
+    border-radius: 16px;
+ visibility: hidden;
+    opacity: 0; 
+    transform-origin: 0% 0%;
+    transform: rotateX(-90deg);
+    transition: .3s linear; 
+    // .submenu__item
+
+    &__item {
+        padding: 15px 23px;
+        background: #FFFFFF;
+        
+    }
+    
+
+    // .submenu__link
+
+    &__link {
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        color: #171717;
+    }
+    &__link:hover{
+        color: #1749B3;
+    }
+}
+.info-header {
+    display: flex;
+    gap: 40px;
+
+    // .info-header__sotial
+
+    &__sotial {
+    }
+
+    // .info-header__language
+
+    &__language {
+    }
+
+    // .info-header__menu
+
+    &__menu {
+    }
+
+    // .info-header__btn
+
+    &__btn {
+    }
+}
+
+.btn {
+}
