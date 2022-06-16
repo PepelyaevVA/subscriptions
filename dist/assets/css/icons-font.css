@@ -1,7 +1,7 @@
 @font-face {
     font-family: "icons";
-    src: url("./fonts/icons.eot?x4y88q");
-    src: url("./fonts/icons.eot?x4y88q#iefix") format("embedded-opentype"), url("./fonts/icons.ttf?x4y88q") format("truetype"), url("./fonts/icons.woff?x4y88q") format("woff"), url("./fonts/icons.svg?x4y88q#icons") format("svg");
+    src: url("/assets/fonts/icons.eot?x4y88q");
+    src: url("/assets/fonts/icons.eot?x4y88q#iefix") format("embedded-opentype"), url("/assets/fonts/icons.ttf?x4y88q") format("truetype"), url("/assets/fonts/icons.woff?x4y88q") format("woff"), url("/assets/fonts/icons.svg?x4y88q#icons") format("svg");
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -24,12 +24,15 @@
 
 .icon-arrow-d:before {
     content: "\e902";
+    font-size: 8px;
 }
 
 .icon-telegramm:before {
     content: "\e900";
+    font-size: 24px;
 }
 
 .icon-WhatsApp:before {
     content: "\e901";
+    font-size: 24px;
 }
